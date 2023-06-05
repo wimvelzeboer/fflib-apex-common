@@ -594,7 +594,7 @@ public virtual with sharing class fflib_Criteria
 		public String toSOQL()
 		{
 			return String.format(
-					'{0} {2} {3}',
+					'{0} {1} {2}',
 					new List<String>
 					{
 							this.sObjectField.getDescribe().getName(),
